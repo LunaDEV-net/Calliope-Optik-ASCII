@@ -1,6 +1,6 @@
 serial.redirect_to_usb()
 t = 1000
-threshold = 50
+threshold = 20
 
 res = [0] 
 def onEvery_interval():
