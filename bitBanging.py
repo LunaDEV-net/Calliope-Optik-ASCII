@@ -9,7 +9,7 @@ index = 0
 def onEvery_interval():
     global index
     if to_send[index] == 1:
-        basic.set_led_color(0xff0000)
+        basic.set_led_color(0xffffff)
     if to_send[index] == 0:
         basic.turn_rgb_led_off()
     index += 1
